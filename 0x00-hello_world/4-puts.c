@@ -3,7 +3,6 @@
 
 /**
  * main - Function to print a word
- * @string1: string to be printed
  * Return: Returns 0 if successful 1 otherwise
  */
 
