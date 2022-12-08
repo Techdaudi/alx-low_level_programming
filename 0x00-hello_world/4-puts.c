@@ -4,8 +4,10 @@
 /**
  * main: Function to print a string
  * @string1 - string to be printed
- * Return 0 if successful 1 otherwise 
+ *
+ * Return 0 if successful 1 otherwise
  */
+
 int main(void)
 {
 	/*Func description*/
