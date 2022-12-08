@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <string.h>
 
 /**
  * Main - Prints string
@@ -6,7 +7,8 @@
  */
 int main(void)
 {
-    printf("with proper grammar, but the outcome is a piece of art,");
+    char char1[] = "with proper grammar, but the outcome is a piece of art,"
+    printf("%s",char1);
 
     return (0);
 }
