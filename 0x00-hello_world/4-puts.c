@@ -2,16 +2,15 @@
 #include <string.h>
 
 /**
- * Function to perint a string 
+ * Function to print a string
+ * Prints string
+ * Return 0 if successful 1 otherwise 
  */
 int main(void)
 {
-	/*Prints string*/
 	char string[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(string);
-
-	/*Returns string*/
 
 	return (0);
 }
