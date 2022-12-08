@@ -3,6 +3,7 @@
 
 /**
  * Main - funtciont that prints string
+ * @char1 - string to be printed.
  * Return: returns 0 if successful otherwise 1
  */
 
