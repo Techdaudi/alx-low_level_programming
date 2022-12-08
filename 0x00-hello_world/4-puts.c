@@ -2,15 +2,16 @@
 #include <string.h>
 
 /**
- * Function to print a string
- * Prints string
+ * main: Function to print a string
+ * @string1 - string to be printed
  * Return 0 if successful 1 otherwise 
  */
 int main(void)
 {
-	char string[] = "\"Programming is like building a multilingual puzzle";
+	/*Func description*/
+	char string1[] = "\"Programming is like building a multilingual puzzle";
 
-	puts(string);
+	puts(string1);
 
 	return (0);
 }
