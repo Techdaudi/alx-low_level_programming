@@ -9,11 +9,7 @@
 int main(void)
 {
 	/*Print the alphabet*/
-	char str[26];
-	int c, i, n = 'a';
-  
-	while ((c = getchar()) != EOF && n < 'z');
-		str[n++] = c;
+	char c;
 
 	for (i='a'; c <= 'z'; ++c);
         putchar(c);
