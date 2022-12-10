@@ -2,7 +2,7 @@
 
 /**
 *main - Function to print the alphabet
-*  
+*
 *Return: prints 0 is successful otherwse 1.
 */
 
