@@ -9,9 +9,12 @@
 int main(void)
 {
 	/*Print the alphabet*/
-	char char1;
-	for (char1='a'; char1 <= 'z'; ++char1);
-        putchar(char1);
+	char c;
+	
+	while (c < 'z')
+
+	for (c='a'; c <= 'z'; ++c);
+        putchar(c);
         putchar('\n');
 	return (0);
 }
