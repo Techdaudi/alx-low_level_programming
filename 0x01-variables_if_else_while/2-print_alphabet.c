@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Function to print the alphabet
- * 
- * Return: prints 0 is successful otherwse 1.
- */
+*main - Function to print the alphabet
+*  
+*Return: prints 0 is successful otherwse 1.
+*/
 
 int main(void)
 {
 	/*Print the alphabet*/
-	char c;
-	
-	while (c < 'z')
+	char str[26];
+	int c, i, n = 'a';
+  
+	while ((c = getchar()) != EOF && n < 'z');
+		str[n++] = c;
 
-	for (c='a'; c <= 'z'; ++c);
+	for (i='a'; c <= 'z'; ++c);
         putchar(c);
         putchar('\n');
 	return (0);
