@@ -15,7 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if (n % 10 > 0)
 	{
 		int rem = n % 10;
