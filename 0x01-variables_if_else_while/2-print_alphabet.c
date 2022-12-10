@@ -11,8 +11,10 @@ int main(void)
 	/*Print the alphabet*/
 	char c;
 
-	for (i='a'; c <= 'z'; ++c);
-        putchar(c);
-        putchar('\n');
+	while (c < z)
+	{
+		for (c='a'; c <= 'z'; ++c);
+		putchar(c);
+		putchar('\n');
 	return (0);
 }
