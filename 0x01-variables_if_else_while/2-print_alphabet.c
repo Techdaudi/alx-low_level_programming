@@ -14,7 +14,7 @@ int main(void)
 	for(c='A'; c <= 'Z'; c++)
 	{
 		char sm = tolower(c);
-		putchar(c);
+		putchar(sm);
 		putchar('\n');
 	}
 	return (0);
