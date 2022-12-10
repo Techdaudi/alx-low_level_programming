@@ -16,9 +16,11 @@ int main(void)
 	{
 		putchar(c);
 	}
+	
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(toupper(c));
-	}
+                putchar(toupper(c));
+        }
 	putchar('\n');
 	return (0);
 }
