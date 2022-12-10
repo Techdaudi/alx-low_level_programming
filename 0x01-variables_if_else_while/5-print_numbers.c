@@ -9,11 +9,11 @@
 int main(void)
 {
 	/*Prints single digit integers*/
-	unsigned int n;
+	int n;
 
-	while (n < 10)
+	for (n = 0; n < 10,++n)
 	{
-		printf('%d\n',n);
+		printf('%d ',n);
 	} 
 	return (0);
 }
