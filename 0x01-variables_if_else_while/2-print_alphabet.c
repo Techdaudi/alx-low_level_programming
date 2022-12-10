@@ -10,6 +10,8 @@ int main(void)
 {
 	/*Print the alphabet*/
 	char c;
+	char a = 0;
+	char z = 26;
 
 	while (c < z)
 	{
