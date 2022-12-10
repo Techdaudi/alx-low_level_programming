@@ -9,14 +9,16 @@
 
 int main(void)
 {
-        /*Print the alphabet*/
-        int c;
-
-        for (c = 'a'; c <= 'z'; c++)
-        {
-                putchar(c);
+	/*Print the alphabet*/
+	int c;
+	
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	{
 		putchar(toupper(c));
-        }
-        putchar('\n');
-        return (0);
+	}
+	putchar('\n');
+	return (0);
 }
