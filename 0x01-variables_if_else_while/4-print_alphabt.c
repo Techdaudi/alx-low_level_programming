@@ -11,12 +11,12 @@ int main(void)
 {
 	/*Print the alphabet*/
 	int c;
-	
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		if (c == 'q' || c == 'e')
 		{
-			break;
+			continue;
 		}
 		putchar(c);
 	}
