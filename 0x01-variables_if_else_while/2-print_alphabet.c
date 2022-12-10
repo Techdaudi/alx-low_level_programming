@@ -11,10 +11,9 @@ int main(void)
 	/*Print the alphabet*/
 	int c;
 	
-	for(c='A'; c <= 'Z'; c++)
+	for(c='a'; c <= 'z'; c++)
 	{
-		char sm = tolower(c);
-		putchar(sm);
+		putchar(c);
 		putchar('\n');
 	}
 	return (0);
