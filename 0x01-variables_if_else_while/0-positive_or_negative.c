@@ -8,7 +8,7 @@
  * Return: Returns 0 if function is successful otherwise 1.
  */
 
-int main(void) 
+int main(void)
 {
 	/*Func to check whether a random number is +ve or -ve*/
 
@@ -17,7 +17,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n < 0) 
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
@@ -29,6 +29,5 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-    
 	return (0);
 }
