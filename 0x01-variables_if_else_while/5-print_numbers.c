@@ -13,7 +13,8 @@ int main(void)
 
 	for (n = 0; n < 10;++n)
 	{
-		puts(n);
-	} 
+		printf('%d', n);
+	}
+	print('\n');
 	return (0);
 }
