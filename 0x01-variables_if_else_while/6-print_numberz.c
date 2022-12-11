@@ -8,7 +8,7 @@
 int main(void)
 {
 	/*Prints all single digits bass 10*/
-	unsigned char ch;
+	unsigned int ch;
 
 	for (ch = '0'; ch <= '9'; ++ch)
 	{
