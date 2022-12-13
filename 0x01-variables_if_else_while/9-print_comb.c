@@ -8,7 +8,7 @@
 int main(void)
 {
 	/*Prints combination of single digit numbers*/
-	int x, y, z;
+	int x;
 
 	for (x = 0; x <= 9; ++x)
 	{
