@@ -15,13 +15,14 @@ int main(void)
 			putchar((x) + '0');
 
 			if (x == 9)
-				continue
+				continue;
 
 			putchar(',');
 
 			putchar(' ');
 		}
-	putchar('\n')
+
+	putchar('\n');
 
 	return (0);
 }
