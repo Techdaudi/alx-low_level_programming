@@ -8,7 +8,7 @@
 
 void print_string(char str[])
 {
-	char str[] = "_putchar";
+	char = "_putchar";
 	
 	_putchar(str);
 }
