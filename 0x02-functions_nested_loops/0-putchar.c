@@ -10,5 +10,5 @@ void print_string(char str[])
 {
 	char str_[]= "_putchar";
 	
-	_putchar(str_);
+	_putchar(*str_);
 }
