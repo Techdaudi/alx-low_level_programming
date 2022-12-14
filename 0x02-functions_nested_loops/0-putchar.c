@@ -1,5 +1,7 @@
 #include "main.h"
 
+void _putchar(void);
+
 /**
  *print_string - Prints string _putchar
  * 
