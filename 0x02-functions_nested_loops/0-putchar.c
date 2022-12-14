@@ -6,7 +6,7 @@
  * Return: prints string.
  */
 
-void print_string()
+int print_string(void)
 {
 	
 	_putchar('_');
@@ -18,4 +18,6 @@ void print_string()
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
+	return (0);
 }
