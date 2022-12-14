@@ -1,6 +1,6 @@
 #include "main.h"
 
-void _putchar(void);
+int _putchar(char c);
 
 /**
  *print_string - Prints string _putchar
