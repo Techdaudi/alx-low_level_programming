@@ -9,11 +9,8 @@ void print_alphabet(void);
 int main(void)
 {
 	/*Call functon print_alphabet*/
-	char c2;
 
-	c2 = print_alphabet();
-
-	_putchar(c2);
+	print_alphabet();
 
 	return (0);
 }
@@ -25,4 +22,5 @@ void print_alphabet(void)
 
 	for (c = 'a';c <= 'z'; ++c)
 		_putchar(c);
+	_putchar('\n);
 }
