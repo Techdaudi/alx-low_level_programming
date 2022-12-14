@@ -11,7 +11,7 @@ int main(void)
 	/*Call functon print_alphabet*/
 	char c2;
 
-	c2 = print_alphabet(void);
+	c2 = print_alphabet();
 
 	_putchar(c2);
 
