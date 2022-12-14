@@ -6,9 +6,18 @@
  * Return: prints string.
  */
 
-void print_string(char str[])
+void print_string()
 {
-	char str_[]= "_putchar";
 	
-	_putchar(*str_);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
