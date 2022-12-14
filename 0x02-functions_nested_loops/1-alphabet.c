@@ -11,7 +11,7 @@ int main(void)
 	/*Call functon print_alphabet*/
 	char c2;
 
-	c2 = print_alphabet(void);
+	c2 = print_alphabet();
 
 	_putchar(c2);
 
@@ -23,6 +23,6 @@ void print_alphabet(void)
 	/*Prints lowercase alphabet*/
 	char c;
 
-	for (c = 'a';c <= 'z', ++c)
+	for (c = 'a';c <= 'z'; ++c)
 		_putchar(c);
 }
