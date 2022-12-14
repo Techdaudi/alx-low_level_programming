@@ -1,7 +1,5 @@
 #include "main.h"
 
-int _putchar(char c);
-
 /**
  *print_string - Prints string _putchar
  * 
@@ -9,8 +7,7 @@ int _putchar(char c);
  */
 
 int print_string(void)
-{
-	
+{	
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
