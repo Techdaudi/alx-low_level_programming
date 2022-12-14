@@ -18,6 +18,4 @@ void print_string()
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
-	return (0);
 }
