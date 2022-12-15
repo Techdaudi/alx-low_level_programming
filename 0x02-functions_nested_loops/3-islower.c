@@ -11,13 +11,15 @@ int _islower(int c)
 	/*Checks if character is lower case*/
 	int n1 = 0;
 	int n2 = 1;
+	char result;
 
 	if (c <= 'a' && c <= 'z')
 	{
-		_putchar(n1);
+		result = _putchar(n1);
 	}
 	else
 	{
-		_putchar(n2);
+		result = _putchar(n2);
 	}
+	return result;
 }
