@@ -4,7 +4,7 @@ int _abs(int);
 /**
 *_abs - Prints absolute valu of number.
 * @n: parameter to be retuned
-*_putchar: 0 if successful otherwise 1.
+*return: 0 if successful otherwise 1.
 */
 
 int _abs(int n)
@@ -20,4 +20,6 @@ int _abs(int n)
 		_putchar(n);
 	}
 	_putchar('\n');
+
+	return (0);
 }
