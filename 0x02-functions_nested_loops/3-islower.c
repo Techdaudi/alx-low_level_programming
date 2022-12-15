@@ -9,7 +9,7 @@ int _islower(int c);
 int _islower(int c)
 {
 	/*Checks if character is lower case*/
-	charn1 = 0;
+	char n1 = 0;
 	char n2 = 1;
 	int result;
 
