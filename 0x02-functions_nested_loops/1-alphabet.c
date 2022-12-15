@@ -2,7 +2,7 @@
 void print_alphabet(void);
 
 /**
-*main - Calls the function  print_alphabet.
+*print_alphabet - Calls the function  print_alphabet.
 *Return 0 if successful otherwise 0.
 */
 
