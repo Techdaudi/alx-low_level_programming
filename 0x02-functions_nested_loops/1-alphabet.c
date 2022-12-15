@@ -6,15 +6,6 @@ void print_alphabet(void);
 *Return 0 if successful otherwise 0.
 */
 
-int main(void)
-{
-	/*Call functon print_alphabet*/
-
-	print_alphabet();
-
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	/*Prints lowercase alphabet*/
