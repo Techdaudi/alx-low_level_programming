@@ -1,5 +1,5 @@
 #include "main.h"
-int _abs(int);
+int _abs(int n);
 
 /**
 *_abs - Prints absolute valu of number.
@@ -7,7 +7,7 @@ int _abs(int);
 *_putchar: 0 if successful otherwise 1.
 */
 
-int _abs(int)
+int _abs(int n)
 {
 	/*Prints absolute value of a number*/
 	int n;
@@ -20,5 +20,5 @@ int _abs(int)
 	{
 		_putchar(n);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
