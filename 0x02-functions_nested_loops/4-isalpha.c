@@ -9,7 +9,7 @@ int _isalpha(int c);
 int _isalpha(int c)
 {
 	/*Checks if character is alphabet*/
-	char c;
+	int c;
 
 	if ((c <= 'a' && c <= 'z') || (c <= 'A' && c <= 'Z'))
 	{
