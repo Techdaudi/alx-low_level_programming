@@ -9,8 +9,8 @@ int _islower(int c);
 int _islower(int c)
 {
 	/*Checks if character is lower case*/
-	int n1 = 0;
-	int n2 = 1;
+	charn1 = 0;
+	char n2 = 1;
 	int result;
 
 	if(c >= 'a' && c <= 'z')
