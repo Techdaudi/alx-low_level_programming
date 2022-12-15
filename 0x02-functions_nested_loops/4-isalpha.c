@@ -15,11 +15,13 @@ int _isalpha(int c)
 
 	if ((c <= 'a' && c <= 'z') || (c <= 'A' && c <= 'Z'))
 	{
-		result = _putchar((n2) + '0');
+		result = _putchar(n2 + '0');
 	}
 	else
 	{
-		result = _putchar((n1) + '0');
+		result = _putchar(n1 + '0');
 	}
+	_putchar('\n');
+
 	return (result);
 }
