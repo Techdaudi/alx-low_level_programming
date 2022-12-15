@@ -9,11 +9,11 @@ int _islower(int c);
 int _islower(int c)
 {
 	/*Checks if character is lower case*/
-	char n1 = 0;
-	char n2 = 1;
+	int n1 = 0;
+	int n2 = 1;
 	int result;
 
-	if(c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		result = _putchar(n2);
 	}
@@ -21,5 +21,5 @@ int _islower(int c)
 	{
 		result = _putchar(n1);
 	}
-	return result;
+	return (result);
 }
