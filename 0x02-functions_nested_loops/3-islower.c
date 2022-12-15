@@ -13,7 +13,7 @@ int _islower(int c)
 	int n2 = 1;
 	int result;
 
-	if (c <= 'a' && c <= 'z')
+	if(c >= 'a' && c <= 'z')
 	{
 		result = _putchar(n1);
 	}
