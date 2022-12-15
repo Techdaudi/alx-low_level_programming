@@ -3,7 +3,8 @@ int _isalpha(int c);
 
 /**
 *_isalpha - Calls the function print_alphabet.
-*return:  1 if successful 0 otherwise.
+*@c: characcter to be returned.
+*_putchar:  1 if successful 0 otherwise.
 */
 
 int _isalpha(int c)
