@@ -12,7 +12,7 @@ void print_numbers(void);
 	/* prints the numbers, from 0 to 9*/
 	int n;
 
-	if (n >= 0 && n <= 9)
+	for (n >= 0; n < 9; ++n)
 	{
 		_putchar(n + '0');
 	}
