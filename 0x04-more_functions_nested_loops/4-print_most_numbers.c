@@ -4,7 +4,7 @@ void print_most_numbers(void);
 /**
 *print_most_numbers - Prints absolute value of number.
 *@n: paraameter to be retuned
-*_putchar: 0 if successful otherwise 1.
+*Return: 0 if successful otherwise 1.
 */
 
 void print_most_numbers(void)
