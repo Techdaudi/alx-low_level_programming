@@ -12,7 +12,7 @@ void print_numbers(void);
 	/* prints the numbers, from 0 to 9*/
 	char n = '0';
 
-	while (n < '9')
+	while (n <= '9')
 	{
 		_putchar(n);
 		++n;
