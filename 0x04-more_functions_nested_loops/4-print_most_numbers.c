@@ -12,10 +12,13 @@ void print_most_numbers(void)
 	/* prints the numbers 0 to 9 except 2 and 4*/
 	char n = '0';
 	
-	while (n < '9' && n != '2' && n != '4')
+	while (n < '9')
 	{
-		_putchar(n);
-		++n;
+		if (n != '2' && n != '4')
+		{
+			_putchar(n);
+		}
+	n++;
 	}
 	_putchar('\n');
 }
