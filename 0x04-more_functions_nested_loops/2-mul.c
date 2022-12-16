@@ -10,7 +10,6 @@ int mul(int a, int b);
 
 int mul(int a, int b)
 {
-	/*Multiply 2 numbers*/
 	int result;
 
 	result = a * b;
