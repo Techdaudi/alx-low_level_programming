@@ -3,7 +3,7 @@ void print_triangle(int size);
 
 /**
 *print_triangle - function to prints a triangle, 
-* followed by a new line.
+*followed by a new line.
 *@size: variable 1
 *Return: 0 if successful otherwise 1.
 */

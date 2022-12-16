@@ -12,7 +12,7 @@ void print_line(int n)
 	/* prints underscore n times*/
 	int m;
 	
-	for (m = 0; m <= n; ++m)
+	for (m = 1; m <= n; ++m)
 	{
 		if (m <= 0)
 		{
@@ -22,7 +22,6 @@ void print_line(int n)
 		{
 			_putchar('-');
 		}
-	_putchar('\n');
 	}
 	_putchar('\n');
 }
