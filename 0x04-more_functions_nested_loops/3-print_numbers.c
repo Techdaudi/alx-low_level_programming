@@ -10,11 +10,12 @@ void print_numbers(void);
 void print_numbers(void);
 {
 	/* prints the numbers, from 0 to 9*/
-	char n;
+	char n = '0';
 
-	for (n >= '0'; n < '9'; n++)
+	while (n < '9')
 	{
 		_putchar(n);
+		++n;
 	}
 	_putchar('\n');
 }
