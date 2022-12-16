@@ -8,7 +8,7 @@ void more_numbers(void);
 *Return: 0 if successful otherwise 1.
 */
 
-void more_numbers(void);
+void more_numbers(void)
 {
 	/* prints 10 times the numbers 0 to 14*/
 	int n1 = 0;
