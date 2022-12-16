@@ -9,7 +9,6 @@ int _isupper(int c);
 
 int _isupper(int c)
 {
-	/*Checks for digit*/
 	if (c >= 65 && c <= 90)
 	{
 		return (1);
