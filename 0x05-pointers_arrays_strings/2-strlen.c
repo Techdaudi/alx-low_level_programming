@@ -12,7 +12,7 @@ int _strlen(char *s)
 
 	for (i=0; s[i] != '\0'; ++i);
 
-	_putchar("%d", i);
+	_putchar(i % 10 + '0');
 
 	return (0);
 }
