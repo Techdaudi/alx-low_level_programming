@@ -13,7 +13,7 @@ int _strlen(char *s)
 	for (i=0; s[i] != '\0'; ++i);
 
 	_putchar(i / 10 + '0');
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
