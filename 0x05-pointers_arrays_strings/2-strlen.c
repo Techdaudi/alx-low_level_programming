@@ -2,15 +2,14 @@
 int _strlen(char *s);
 
 /**
-*swap_int - function to swap 2 integers.
+*_strlen - function to retun length of string.
 *@s: a pointer string.
-*Return: nothing.
+*Return: int.
 */
 int _strlen(char *s)
 {
 	int i;
 
 	for (i = 0; s[i] != '\0'; ++i);
-
 	return (i);
 }
