@@ -6,15 +6,15 @@ void print_rev(char *s);
 *@str: a pointer int.
 *Return: Nothing.
 */
-void _puts(char *str)
+void print_rev(char *s)
 {
 	int i, j;
 
-	for (i = 0; str[i] != '\0'; ++i);
+	for (i = 0; s[i] != '\0'; ++i);
 
 	for (j = i - 1; j >= 0; j--)
 	{
-		_putchar(str[j]);
+		_putchar(s[j]);
 	}
 	_putchar('\n');
 }
