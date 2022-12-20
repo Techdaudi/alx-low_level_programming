@@ -5,3 +5,5 @@ void reset_to_98(int *n);
 int _strlen(char *s);
 
 void print_rev(char *s);
+
+void puts_half(char *str);
