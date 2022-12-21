@@ -1,5 +1,5 @@
 #include "main.h"
-char *_strncat(char *dest, char *src, int n);
+char *_strcat(char *dest, char *src);
 
 /**
 **_strncat - function to concatenate strings.
@@ -7,7 +7,7 @@ char *_strncat(char *dest, char *src, int n);
 *@src: source pointer.
 *Return: Concatenated string.
 */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
@@ -19,5 +19,5 @@ char *_strncat(char *dest, char *src, int n)
 		++i;
 	}
 	dest[i] = '\0'
-	printf("%s\n", dest);
+	_putchar(dest);
 }
