@@ -2,11 +2,11 @@
 char *_strncat(char *dest, char *src, int n);
 
 /**
-**_strncat - function that concatenates two strings.
+*_strncat - function that concatenates two strings.
 *@dest: destination string
 *@src: source string
 *@n: integer.
-*Return: Concatenated string.
+*Return: Return zero.
 */
 char *_strncat(char *dest, char *src, int n)
 {
