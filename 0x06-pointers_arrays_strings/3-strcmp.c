@@ -2,30 +2,21 @@
 int _strcmp(char *s1, char *s2);
 
 /**
-*_strcmp - function that copies a string.
+*_strcmp - function that compares 2 strings.
 *@s1: destination string
 *@s2: source string
-*Return: integer.
+*Return: 0.
 */
 int _strcmp(char *s1, char *s2)
 {
-	int i, j;
-	int result = 0;
+	int i;
 	
-	for (i = 0; s1[i] != '\0'; ++i);
-	for (j = 0; s2[j] != '\0'; ++j);
-
-	if (i < j)
+	for (i = 0; s1[i] != '\0'; ++i)
 	{
-		result = -1;
+		if (s1[i] < s2[i])
+			return (s1[i] - s2[i]);
+		if (s1[i] > s2[i])
+			return (s1[i] < s2[i]);
 	}
-	else if (i == j)
-	{
-		result = 0;
-	}
-	else
-	{
-		result = 1;
-	}
-	_putchar(result);
+	return (0);
 }
