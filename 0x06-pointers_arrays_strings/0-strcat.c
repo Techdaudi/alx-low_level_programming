@@ -2,7 +2,7 @@
 char *_strcat(char *dest, char *src);
 
 /**
-**_strncat - function to concatenate strings.
+***_strcat - function to concatenate strings.
 *@dest: destination pointer.
 *@src: source pointer.
 *Return: Concatenated string.
