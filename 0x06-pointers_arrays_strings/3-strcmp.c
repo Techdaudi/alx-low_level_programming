@@ -9,7 +9,7 @@ int _strcmp(char *s1, char *s2);
   *Return: 0.
   */
 int _strcmp(char *s1, char *s2)
-{i
+{
 	int i = 0, j = 0; k = 0;
 	int res1 = 0, res2;
 	
