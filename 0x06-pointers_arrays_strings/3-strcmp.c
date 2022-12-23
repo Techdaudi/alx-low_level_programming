@@ -34,7 +34,7 @@ int _strcmp(char *s1, char *s2)
 
 	while (k < res2)
 	{
-		if s1[k] == s2[k]
+		if (s1[k] == s2[k])
 		{
 			k++;
 			continue;
