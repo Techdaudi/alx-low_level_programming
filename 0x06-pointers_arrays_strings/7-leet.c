@@ -8,20 +8,26 @@ char *leet(char *s);
 */
 char *leet(char *s)
 {
-	int i, j;
+	int i = 0, j = 0;
 
 	char numbers[5] = {'4', '3', '0', '7', '1'};
 	char letters[5] = {'A', 'E', 'O', 'T', 'L'};
 	
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i])
 	{
-		for (j = 0; j < 5; j++)
+		j = 0;
+
+		while (j < 5)
 		{
 			if (s[i] = letters[j] || s[i] - 32 = numbers[j])
 			{
 				s[i] = numbers[j];
 			}
+
+			j++;
 		}
+
+		i++;
 	}
 	
 	return (s);
