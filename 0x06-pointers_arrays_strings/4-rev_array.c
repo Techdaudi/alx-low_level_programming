@@ -2,25 +2,26 @@
 void reverse_array(int *a, int n);
 
 /**
-*reverse_array - function that reverses the content of an array of integers.
-*@a: array
-*@n: integer
-*Return: integer.
+*reverse_array - Function that reverses the content of an array of integers.
+*@a: Array
+*@n: Integer
+*Return: Nothing
 */
 void reverse_array(int *a, int n)
 {
-	int i;
+	int i, j, l, *ptr = *a;
+	int temp;
 
-	for (i = n - 1; i >= 0; --i)
+	for (i = 1; i < n; ++i)
 	{
-		if (i != 0)
-		{
-			_putchar(a[i]);
-			putchar(', ');
-		}
-		else
-		{
-			_putchar(a[i]);
-		}
+		ptr++;
+	}
+
+	for (j = 0; j < i / 2; j++)
+	{
+		temp = a[j];
+		a[k] = *ptr;
+		*ptr = temp;
+		ptr--;
 	}
 }
