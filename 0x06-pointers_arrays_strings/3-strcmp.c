@@ -10,13 +10,18 @@ int _strcmp(char *s1, char *s2);
   */
 int _strcmp(char *s1, char *s2)
 {
-	int i, j;
-	int k = 0;
+	int i = 0, j = 0; k = 0;
 	int res1, res2;
 	
-	for (i = 0; s1[i] != '\0'; ++i);
+	while (s1[i])
+	{
+		i++;
+	}
 
-	for (i = 0; s2[j] != '\0'; ++j);
+	while (s2[j])
+	{
+		j++;
+	}
 
 	if (i <= k)
 	{
