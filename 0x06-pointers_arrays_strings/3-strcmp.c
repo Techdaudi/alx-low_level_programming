@@ -9,9 +9,9 @@ int _strcmp(char *s1, char *s2);
   *Return: 0.
   */
 int _strcmp(char *s1, char *s2)
-{
+{i
 	int i = 0, j = 0; k = 0;
-	int res1, res2;
+	int res1 = 0, res2;
 	
 	while (s1[i])
 	{
@@ -23,16 +23,16 @@ int _strcmp(char *s1, char *s2)
 		j++;
 	}
 
-	if (i <= k)
+	if (i <= j)
 	{
-		res1 = i;
+		res2 = i;
 	}
 	else
 	{
-		res1 = j;
+		res2 = j;
 	}
 
-	while (k < res1)
+	while (k < res2)
 	{
 		if s1[k] == s2[k]
 		{
