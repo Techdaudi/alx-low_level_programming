@@ -9,7 +9,7 @@ char *cap_string(char *);
 char *cap_string(char *)
 {
 	int i;
-	char *str[];
+	char *str;
 	
 	for (i = 0; str[i] != '\0'; ++i)
 	{
@@ -19,7 +19,7 @@ char *cap_string(char *)
 				str[i] = str[i] - 32;
 			continue;
 		}
-		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == ',' || str[i] == ';' || str[i] == '.' || str[i] == '!' || str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}')
+		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == 44 || str[i] == ';' || str[i] == 46 || str[i] == '!' || str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}')
 		{
 			++i;
 			if (str[i] >= 'a' && str[i] <= 'z')
@@ -32,5 +32,6 @@ char *cap_string(char *)
 				str[i] = str[i] + 32;
 		}
 	}
-	_putchar("%s",str);
+	
+	return (str);
 }
