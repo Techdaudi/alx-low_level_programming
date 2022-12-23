@@ -2,11 +2,12 @@
 char *_strncat(char *dest, char *src, int n);
 
 /**
-*_strncat - function that concatenates two strings.
-*@dest: destination string
-*@src: source string
-*@n: integer.
-*Return: Return zero.
+*_strncat - Function that concatenates two strings
+*@dest: Destination string
+*@src: Source string
+*@n: Integer
+*
+*Return: Destination pointer
 */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -19,5 +20,8 @@ char *_strncat(char *dest, char *src, int n)
 		dest[i] = src[j];
 		++i;
 	}
-	_putchar(dest);
+
+	dest[i + n + 1] = '\0';
+
+	return (dest);
 }
