@@ -2,9 +2,9 @@
 char *string_toupper(char *);
 
 /**
-*string_toupper - func that changes all lowercase letters of a string to uppercase.
-*@str: string.
-*Return: Always zero.
+*string_toupper - func that changes all lowercase letters of a string to uppercase
+*@str: string
+*Return: str
 */
 char *string_toupper(char *)
 {
@@ -13,9 +13,11 @@ char *string_toupper(char *)
 
 	for (i = 0; str[i] != '\0'; ++i)
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		if (str[i] >= 97 && str[i] <= 122)
+		{
 			str[i] = str[i] - 32;
+		}
 	}
-	_putchar(str);
-	return (0);
+
+	return (str);
 }
