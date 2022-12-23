@@ -29,6 +29,6 @@ char *leet(char *)
 			s2[i] = s[i];
 		}
 	}
-	_putchar(s2);
-	return (0);
+
+	return (s2);
 }
